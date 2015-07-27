@@ -10,14 +10,18 @@ How’s the color magic works?
 With 0x1B and an open square blacket “[“, initiate the setting.
 
 Set console output text attribute:
-	(attribute);(fore color);(background color)
+
+	/* (attribute);(fore color);(background color) */
 	printf("%c[%d;%d;%dm", 0x1B, 1, 33, 40);
 
 Reset consolet output text attribute:
+
 	printf("%c[%d;%d;%dm", 0x1B, 0, 0, 0);
 
 Example
 -------
+<img src="https://github.com/shulgaalexey/colorful_console/blob/master/colorful_console.png" alt="Colorful Output to Linux Console" style="width:250px"/>
+
 
 How to build
 ------------
