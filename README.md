@@ -22,6 +22,9 @@ Example
 -------
 <img src="https://github.com/shulgaalexey/colorful_console/blob/master/colorful_console.png" alt="Colorful Output to Linux Console" style="width:250px"/>
 
+Same in C++ with iostream
+--------------------------
+cout << "\033[1;31mbold red text\033[0m\n";
 
 How to build
 ------------
