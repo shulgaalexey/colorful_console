@@ -39,3 +39,4 @@ Reference
 ---------
 http://cc.byexamples.com/2007/01/20/print-color-string-without-ncurses/
 https://en.wikipedia.org/wiki/ANSI_escape_code#graphics
+http://stackoverflow.com/questions/2616906/how-do-i-output-coloured-text-to-a-linux-terminal
